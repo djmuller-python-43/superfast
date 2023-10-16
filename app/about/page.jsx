@@ -20,7 +20,7 @@ const About = () => {
       </div>
       <div className='md:flex md:gap-[60px]'>
         <div className={ styles.item }>
-          <h1 className='text-xl'>What's on offer</h1>
+          <h1 className='text-xl'>What&apos;s on offer</h1>
           <li className='list-none'>Super fast website - Fast page load times</li>
           <li className='list-none'>Website built in 3 days</li>
           <li className='list-none'>Fully SEO - Search Engine Optimization out of the box</li>
