@@ -9,10 +9,18 @@ export const metadata = {
 }
 
 const About = () => {
+  const myBlurUrl = 'https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   return (
     <div className='max-w-screen-2xl mx-5 lg:mx-10 xxl:mx-auto mt-32'>
       <div className={ styles.imgContainer }>
-        <Image src='https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='header image' fill={ true } className={ styles.img }/>
+        <Image 
+          src={myBlurUrl} 
+          alt='header image' 
+          fill={ true } 
+          className={ styles.img }
+          placeholder='blur'
+          blurDataURL='myBlurUrl'
+        />
         <div className='absolute top-[20px] left-[30px]'>
           <h1 className='text-3xl font-bold pb-2'>Digital Storyteller</h1>
           <h2 className=''>Handcrafted digital experiences</h2>

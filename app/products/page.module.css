@@ -18,33 +18,18 @@
 }
 
 .item {
-  border: 5px solid #224C5C;
+  border: 5px solid #8d12b3;
   border-radius: 5px;
   width: 300px;
   height: 300px;
   position: relative;
   background-size: cover !important;
+  cursor: pointer;
 }
 
-.item:hover .title {
-  color: #B05842;
-}
+.item:hover {
+  border: 5px solid #daaed6;
 
-.item:nth-child(1) {
-  background: url('/superfast.png');
-  background-size: contain;
-}
-.item:nth-child(2) {
-  background: url('/airbnb.png');
-}
-.item:nth-child(3) {
-  background: url('/plums.png');
-}
-.item:nth-child(4) {
-  background: url('/peaches.png');
-}
-.item:nth-child(5) {
-  background: url('/apricots.png');
 }
 
 .title {

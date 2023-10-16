@@ -15,7 +15,17 @@ export default function Home() {
       <Button url='https://www.duanemullerwebdesign.co.za/contact' text='Get Superfast  Website'/>
     </div>
     <div className='md:flex-1 md:flex md:flex-col md:gap-5'>
-      <Image src={ Lightning } className='mt-5 w-full img rounded-lg' alt='Good looking guy with a beard and glasses'/>
+      <Image 
+        src={ Lightning } 
+        className='
+          mt-5 
+          w-full 
+          img 
+          rounded-lg
+        ' 
+        placeholder='blur'
+        priority
+        alt='Superfast car with awesome lightning flashes'/>
     </div>
   </div>
   )
